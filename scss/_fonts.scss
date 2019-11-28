@@ -1,0 +1,22 @@
+
+@font-face {
+    font-family: 'Pure Pakati';
+    src: url('../fonts/PurePakati-Notch.woff2') format('woff2'),
+        url('../fonts/PurePakati-Notch.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'National';
+    src: url('../fonts/NationalWebLF-Bold.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+h1{
+    font-family: $font-family-pakati;
+}
+h2{
+    font-family: $font-family-national;
+}
